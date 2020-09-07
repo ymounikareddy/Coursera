@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.page-heading {
+	text-align: center;
+	padding: 30px;
+}
+
+.layout-box {
+	border: 2px solid #000;
+	background-color: grey;
+	font-weight: bold;
+}
+
+.col-lg-4 {
+    width: 30%;
+	float: left;
+	margin: 10px;
+}
+
+.layout-box p{
+	padding: 20px;
+}
+
+.container {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 65px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.inside-text{
+	float: right;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+	padding: 5px 20px 5px 20px;
+}
+
+.one{
+	background: #ff3300;
+}
+.two{
+	background: #ff1aff;
+	color: #ffff;
+}
+
+.three{
+	background: #ff9900;
+}
+
+@media (max-width: 1200px) {
+	
+	.col-lg-4{
+		width: 30%;
+	}
+	
+}
+
+@media (max-width: 767px) {
+	
+	.col-lg-4 {
+		width: 100%;
+	}
+	
+}
+
+
+@media (max-width: 967px) and (min-width: 766px) {
+	
+	.col-lg-4.boxone,
+	.col-lg-4.boxtwo{
+		width: 40%;
+	}
+	
+	.col-lg-4.boxtwo{
+		float: left;
+	}
+	
+	.col-lg-4.boxthree{
+		width: 84%;
+	}
+	
+}
