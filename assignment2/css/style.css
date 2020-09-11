@@ -1,0 +1,89 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+.page-heading {
+	text-align: center;
+	padding: 30px;
+}
+
+.layout-box {
+	border: 2px solid #fff;
+	background-color: grey;
+	font-weight: bold;
+}
+
+
+.layout-box p{
+	padding: 20px;
+}
+
+.inside-text{
+	float: right;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+	padding: 5px 20px 5px 20px;
+}
+
+.one{
+	background: #ff3300;
+}
+.two{
+	background: #ff1aff;
+	color: #ffff;
+}
+
+.three{
+	background: #ff9900;
+}
+
+.navbar{
+	background-color: grey;
+}
+
+a.navbar-brand {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+ul.navbar-nav li a{
+	 color: #000;
+}
+
+#fixed-navbar{
+	height: 100px;
+}
+
+.navbar-1{
+	height: 100px;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.bg-grey{
+	height: 100px;
+}
+
+#navbarSupportedContent{
+	background: grey;
+}
+
+.nav-item{
+	border: 1px solid #000;
+}
